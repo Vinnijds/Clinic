@@ -1,0 +1,90 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6efeb;
+    
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f19398;
+    padding-left: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 80px;
+}
+
+header a {
+    color: white;
+    font-weight: 600;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px 128px 80px;
+}
+
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 88px;
+}
+
+#clinica li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#duvidas {
+    padding: 64px 80px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background-color: #a6ccb2;
+    padding: 16px 32px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.botao-transparente {
+    background-color: transparent;
+    color: #a6ccb2;
+    text-underline-offset: 4px;
+    padding: 16px 32px;
+
+}
+
+.botao:hover{
+    color: #f8dd8c;
+}
+.botao-transparente:hover {
+    color: #f8dd8c;
+}
+
